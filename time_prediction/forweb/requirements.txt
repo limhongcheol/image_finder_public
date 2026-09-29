@@ -1,0 +1,5 @@
+# forweb 전용 의존성
+# - web_server.py (localhost 호스팅 서버) 는 flask, requests 만 있으면 됨
+# - model_server.py (모델 서버) 는 추가로 상위 폴더 requirements.txt(torch 등) 필요
+flask>=3.0.0
+requests>=2.31.0

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Lumina 자연어 사진 검색 구조</title>
+<desc id="desc">사진에서 얼굴과 장면을 분석하고 인물과 관계를 구조화해 자연어 검색에 연결합니다. 시각 예측은 별도 연구입니다.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#7693A6" stroke-width="1.3"/></marker></defs>
+<style>text{font-family:'Malgun Gothic','Noto Sans KR',sans-serif;fill:#192d42}.label{font-size:22px;font-weight:700}.small{font-size:18px;fill:#506174}.tiny{font-size:16px;fill:#506174}.white{fill:white}.edge{fill:none;stroke:#7693A6;stroke-width:2;marker-end:url(#arrow)}</style>
+<rect width="1200" height="620" rx="20" fill="#f4f8fa"/><rect width="1200" height="8" fill="#087f8c"/>
+<text x="42" y="65" font-size="34" font-weight="700">Lumina</text><text x="200" y="65" font-size="24">기억의 단서를 검색 조건으로</text>
+<rect x="42" y="95" width="1116" height="80" rx="12" fill="#162c43"/><text x="65" y="144" class="white" font-size="25">“크리스마스에 OO이랑 스키 타던 사진을 찾아줘.”</text>
+<rect x="42" y="220" width="214" height="104" rx="12" fill="#fff" stroke="#d4e2e9"/>
+<text x="62" y="258" class="label">갤러리 입력</text><text x="62" y="294" class="small">사진 + 메타데이터</text>
+<path d="M256 272 H291" class="edge"/>
+<rect x="303" y="220" width="262" height="104" rx="12" fill="#fff" stroke="#d4e2e9"/>
+<text x="323" y="258" class="label">얼굴과 장면 분석</text><text x="323" y="294" class="small">인물 / 객체 / 속성</text>
+<path d="M565 272 H600" class="edge"/>
+<rect x="612" y="220" width="262" height="104" rx="12" fill="#fff" stroke="#d4e2e9"/>
+<text x="632" y="258" class="label">관계 정보 구조화</text><text x="632" y="294" class="small">관찰 → 패턴 → 관계</text>
+<path d="M874 272 H909" class="edge"/>
+<rect x="921" y="220" width="237" height="104" rx="12" fill="#e1f1ef" stroke="#a4d3cc"/>
+<text x="941" y="258" class="label">복합 조건 검색</text><text x="941" y="294" class="small">해석 + 필터 + 결과</text>
+<rect x="42" y="364" width="1116" height="100" rx="12" fill="#e9f0f5"/>
+<text x="62" y="397" class="label">별도 연구 | 시각적 단서 기반 촬영 시점 예측</text>
+<text x="62" y="430" class="small">데이터셋 연결 → 이미지와 캡션 특징 → 레이어별 probe 비교 → 오차와 한계 평가</text>
+<text x="42" y="511" class="label">핵심 판단</text>
+<text x="42" y="549" class="small">시간 예측의 한계를 확인하고 인물, 활동, 관계를 연결한 검색으로 개발 우선순위를 조정했습니다.</text>
+<text x="42" y="587" class="tiny">설계 개요입니다. 실제 앱 화면이나 정량 검색 벤치마크 결과를 나타내는 그림은 아닙니다.</text>
+</svg>
